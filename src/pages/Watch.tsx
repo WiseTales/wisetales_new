@@ -25,7 +25,7 @@ const stories = [
   {
     id: 2,
     title: 'Zayn Ki Seekh',
-    description: 'Zayn's journey of cleanliness, manners, and responsibility told through heartwarming animation.',
+    description: 'Zayn\'s journey of cleanliness, manners, and responsibility told through heartwarming animation.',
     value: 'cleanliness',
     duration: '4:13',
     views: '—',
