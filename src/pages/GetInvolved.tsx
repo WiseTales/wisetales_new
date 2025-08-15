@@ -12,21 +12,21 @@ const GetInvolved = () => {
   const opportunities = [
     {
       title: 'Voice Artists',
-      description: 'Bring our characters to life with your voice. Perfect for native Arabic, Urdu, or English speakers.',
+      description: 'Bring our characters to life with your voice. Perfect for native speakers of various languages.',
       icon: Mic,
       requirements: ['Clear voice recording setup', 'Passion for children\'s education', 'Flexible schedule']
     },
     {
-      title: 'Islamic Scholars',
-      description: 'Review stories for Islamic authenticity and provide guidance on moral teachings.',
+      title: 'Moral Educators',
+      description: 'Review stories for moral authenticity and provide guidance on ethical teachings.',
       icon: BookOpen,
-      requirements: ['Islamic studies background', 'Experience with children\'s education', 'Commitment to accuracy']
+      requirements: ['Moral education background', 'Experience with children\'s education', 'Commitment to accuracy']
     },
     {
       title: 'Creative Illustrators',
-      description: 'Create beautiful character designs and storyboard concepts for our AI animations.',
+      description: 'Create beautiful character designs and storyboard concepts for our animations.',
       icon: Palette,
-      requirements: ['Digital art skills', 'Experience with character design', 'Understanding of Islamic aesthetics']
+      requirements: ['Digital art skills', 'Experience with character design', 'Understanding of diverse cultural aesthetics']
     }
   ];
   
@@ -55,7 +55,7 @@ const GetInvolved = () => {
               Partnership Opportunities
             </h2>
             <p className="text-xl text-sage-600">
-              We're looking for Islamic schools, NGOs, and organizations to join our mission
+              We're looking for schools, NGOs, and organizations to join our mission
             </p>
           </div>
           
@@ -63,10 +63,10 @@ const GetInvolved = () => {
             <Card className="border-mint-200 bg-white/80 backdrop-blur-sm">
               <CardContent className="p-8">
                 <Users className="w-12 h-12 text-mint-600 mb-4" />
-                <h3 className="text-2xl font-semibold text-sage-800 mb-4">Islamic Schools</h3>
+                <h3 className="text-2xl font-semibold text-sage-800 mb-4">Schools & Learning Centers</h3>
                 <p className="text-sage-600 mb-6">
                   Integrate our moral stories into your curriculum. Perfect for character education, 
-                  Islamic studies classes, and assembly programs. We provide teacher guides and 
+                  ethics classes, and assembly programs. We provide teacher guides and 
                   discussion materials.
                 </p>
                 <ul className="text-sage-600 space-y-2 mb-6">

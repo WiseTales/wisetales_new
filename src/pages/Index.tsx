@@ -45,11 +45,11 @@ const Index = () => {
           
           <div className="mb-12 p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-gold-200 inline-block">
             <p className="text-lg text-sage-700 mb-2">
-              <span className="font-semibold text-gold-600">Backed by Respected Hasan Sir</span> — 
+              <span className="font-semibold text-gold-600">Backed by Our Founder</span> — 
               A fully funded visionary initiative
             </p>
             <p className="text-sm text-sage-500">
-              Empowering the next generation of Muslim leaders
+              Empowering the next generation of leaders
             </p>
           </div>
           
@@ -101,7 +101,7 @@ const Index = () => {
                 <BookOpen className="w-12 h-12 text-mint-600 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-sage-800 mb-3">Moral Education</h3>
                 <p className="text-sage-600">
-                  Teaching honesty, gratitude, respect, and love through engaging AI-powered animations for children aged 3-12.
+                  Teaching honesty, gratitude, respect, kindness, and love through engaging AI-powered animations for children aged 3-12.
                 </p>
               </CardContent>
             </Card>
@@ -119,9 +119,9 @@ const Index = () => {
             <Card className="border-sage-200 bg-white/80 backdrop-blur-sm hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
                 <Heart className="w-12 h-12 text-sage-600 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-sage-800 mb-3">Islamic Values</h3>
+                <h3 className="text-xl font-semibold text-sage-800 mb-3">Universal Values</h3>
                 <p className="text-sage-600">
-                  Rooted in authentic Islamic teachings while embracing cutting-edge technology for modern storytelling.
+                  Rooted in authentic moral teachings while embracing cutting-edge technology for modern storytelling.
                 </p>
               </CardContent>
             </Card>
@@ -162,7 +162,7 @@ const Index = () => {
             Join Our Movement
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Help us create the next generation of confident, moral Muslim leaders
+            Help us create the next generation of confident, moral leaders
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

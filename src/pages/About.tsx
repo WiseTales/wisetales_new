@@ -7,11 +7,11 @@ import Footer from '@/components/Footer';
 
 const About = () => {
   const teamMembers = [
-    { name: 'Professor Hasan Kamaal', role: 'Founder', description: 'Visionary philanthropist guiding the mission to empower young children through storytelling.' },
-    { name: 'Professor Sufiyan Beg', role: 'Patron', description: 'Mentoring the team with academic excellence and strategic guidance to elevate our creative impact.' },
-    { name: 'Zuhair Arif', role: 'Team Member', description: 'AMU student and driving force behind Wise Tales, blending faith, technology, and imagination.' },
+    { name: 'Professor H. Kamaal', role: 'Founder', description: 'Visionary philanthropist guiding the mission to empower young children through storytelling.' },
+    { name: 'Professor S. Beg', role: 'Patron', description: 'Mentoring the team with academic excellence and strategic guidance to elevate our creative impact.' },
+    { name: 'Zuhair Arif', role: 'Team Member', description: 'University student and driving force behind Wise Tales, blending values, technology, and imagination.' },
     
-    { name: 'Shabab Hussain', role: 'Team Member', description: 'AMU student and vital force in our creative process with unwavering consistency and sincere dedication.' },
+    { name: 'Shabab Hussain', role: 'Team Member', description: 'University student and vital force in our creative process with unwavering consistency and sincere dedication.' },
     
   ];
   
@@ -26,8 +26,8 @@ const About = () => {
             Our Story
           </h1>
           <p className="text-xl text-sage-600 max-w-3xl mx-auto">
-            A beautiful journey of how college students from AMU joined forces with 
-             a visionary Respected Hasan Sir to create something extraordinary for Muslim children worldwide.
+            A beautiful journey of how college students joined forces with 
+             a visionary founder to create something extraordinary for children worldwide.
           </p>
         </div>
       </section>
@@ -41,14 +41,14 @@ const About = () => {
                 A Meeting of Hearts
               </h2>
               <p className="text-lg text-sage-600 mb-6">
-                It began with a simple belief: Muslim children deserve stories that inspire them 
-                to become leaders, not just followers. When students from Aligarh Muslim University, met Respected Hasan Sir, 
+                It began with a simple belief: children deserve stories that inspire them 
+                to become leaders, not just followers. When students from university met our founder, 
                 from the US, magic happened.
               </p>
               <p className="text-lg text-sage-600 mb-6">
-                Respected Hasan Sir had spent decades watching Muslim communities around the world, 
+                Our founder had spent decades watching communities around the world, 
                 and he knew that the key to empowerment lay in early childhood education. 
-                With his generous backing, Wise Tales was born—a fully funded initiative 
+                With their generous backing, Wise Tales was born—a fully funded initiative 
                 to create powerful moral stories.
               </p>
             </div>
@@ -58,7 +58,7 @@ const About = () => {
                 <h3 className="text-2xl font-semibold text-sage-800 mb-4">
                   "Great stories build great souls."
                 </h3>
-                <p className="text-sage-600 italic">— Respected Hasan Sir</p>
+                <p className="text-sage-600 italic">— Our Founder</p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const About = () => {
                 <h3 className="text-2xl font-semibold text-sage-800 mb-4">Our Mission</h3>
                 <p className="text-sage-600 text-lg">
                   To uplift children worldwide through moral storytelling, 
-                  teaching honesty, gratitude, respect, love, and strong Islamic character 
+                  teaching honesty, gratitude, respect, love, and strong moral character 
                   to kids aged 3-12 through engaging animated stories.
                 </p>
               </CardContent>

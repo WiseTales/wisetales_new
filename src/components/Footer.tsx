@@ -18,8 +18,8 @@ const Footer = () => {
               <span className="text-2xl font-bold">Wise Tales</span>
             </div>
             <p className="text-sage-300 mb-6 max-w-md">
-              Empowering Muslim children worldwide through AI-powered moral storytelling. 
-              A vision brought to life by Uncle Hasan's generous support.
+              Empowering children worldwide through AI-powered moral storytelling. 
+              A vision brought to life by our founder's generous support.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-sage-300 hover:text-white transition-colors">

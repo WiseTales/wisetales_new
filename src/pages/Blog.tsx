@@ -18,7 +18,7 @@ const Blog = () => {
     },
     {
       title: 'Behind the Scenes: Creating AI-Powered Islamic Animations',
-      excerpt: 'Take a peek into our creative process using cutting-edge AI tools like Google Veo and Suno to bring moral stories to life.',
+      excerpt: 'Take a peek into our creative process using cutting-edge AI tools to bring moral stories to life.',
       author: 'Omar Al-Hassan',
       date: '2024-01-10',
       category: 'Technology',
@@ -26,7 +26,7 @@ const Blog = () => {
     },
     {
       title: 'Uncle Hasan\'s Vision: Empowering the Next Generation',
-      excerpt: 'An exclusive interview with our 83-year-old philanthropist about his mission to make Muslims global leaders and torchbearers.',
+      excerpt: 'An exclusive interview with our philanthropist about their mission to make children global leaders and torchbearers.',
       author: 'Amina Khalil',
       date: '2024-01-05',
       category: 'Inspiration',
@@ -42,7 +42,7 @@ const Blog = () => {
     },
     {
       title: 'From Aligarh to the World: Our Global Mission',
-      excerpt: 'How a student project at AMU became a global movement to transform Islamic education for children.',
+      excerpt: 'How a student project became a global movement to transform moral education for children.',
       author: 'Zuhair Arif',
       date: '2023-12-28',
       category: 'Mission',
@@ -50,15 +50,15 @@ const Blog = () => {
     },
     {
       title: 'Building Character Through Stories: The Islamic Perspective',
-      excerpt: 'Understanding the deep connection between storytelling and character development in Islamic tradition.',
+      excerpt: 'Understanding the deep connection between storytelling and character development in moral education.',
       author: 'Sheikh Abdullah',
       date: '2023-12-20',
-      category: 'Islamic Education',
+      category: 'Moral Education',
       readTime: '9 min read'
     }
   ];
   
-  const categories = ['All', 'Education', 'Technology', 'Inspiration', 'Parenting', 'Mission', 'Islamic Education'];
+  const categories = ['All', 'Education', 'Technology', 'Inspiration', 'Parenting', 'Mission', 'Moral Education'];
   
   return (
     <div className="min-h-screen bg-gradient-to-br from-cream-50 to-mint-50">
@@ -71,8 +71,8 @@ const Blog = () => {
             Our Blog
           </h1>
           <p className="text-xl text-sage-600 max-w-3xl mx-auto">
-            Insights, stories, and guidance on Islamic education, parenting, and our mission 
-            to empower Muslim children worldwide through moral storytelling.
+            Insights, stories, and guidance on moral education, parenting, and our mission 
+            to empower children worldwide through moral storytelling.
           </p>
         </div>
       </section>

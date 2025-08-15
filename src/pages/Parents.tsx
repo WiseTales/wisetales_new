@@ -8,9 +8,9 @@ import Footer from '@/components/Footer';
 
 const Parents = () => {
   const benefits = [
-    "Age-appropriate Islamic moral education for 3-12 year olds",
+    "Age-appropriate moral education for 3-12 year olds",
     "Screen time that actually builds character and values",
-    "Stories reviewed by Islamic scholars and education experts",
+    "Stories reviewed by moral educators and child development experts",
     "Perfect for family time, bedtime stories, or quiet moments",
     "Builds confidence and leadership qualities in children"
   ];
@@ -24,7 +24,7 @@ const Parents = () => {
     },
     {
       title: 'Islamic Values Coloring Pages',
-      description: 'Beautiful coloring activities featuring our characters',
+     description: 'Beautiful coloring activities featuring moral values and our characters',
       type: 'Printable Pack',
       icon: Download
     },
@@ -36,7 +36,7 @@ const Parents = () => {
     },
     {
       title: 'Parent-Child Conversation Starters',
-      description: 'Questions to deepen understanding of Islamic values',
+     description: 'Questions to deepen understanding of moral values',
       type: 'Discussion Guide',
       icon: Users
     }
@@ -53,8 +53,8 @@ const Parents = () => {
             For Parents & Educators
           </h1>
           <p className="text-xl text-sage-600 max-w-3xl mx-auto">
-            Empower your children with stories that build character, strengthen faith, 
-            and inspire them to become confident Muslim leaders of tomorrow.
+            Empower your children with stories that build character, strengthen values, 
+            and inspire them to become confident leaders of tomorrow.
           </p>
         </div>
       </section>
@@ -74,7 +74,7 @@ const Parents = () => {
               </p>
               <p className="text-lg text-sage-600 mb-8">
                 In today's world, it's more important than ever to give our children 
-                a strong foundation in Islamic values while preparing them to be 
+                a strong foundation in moral values while preparing them to be 
                 confident leaders in their communities.
               </p>
               
@@ -111,8 +111,8 @@ const Parents = () => {
               How Wise Tales is Different
             </h2>
             <p className="text-xl text-sage-600 max-w-3xl mx-auto">
-              Unlike traditional Islamic cartoons, our stories are designed 
-              specifically for modern Muslim families who want authentic values with contemporary appeal.
+              Unlike traditional moral cartoons, our stories are designed 
+              specifically for modern families who want authentic values with contemporary appeal.
             </p>
           </div>
           
@@ -122,7 +122,7 @@ const Parents = () => {
                 <BookOpen className="w-12 h-12 text-mint-600 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-sage-800 mb-3">Scholar-Reviewed</h3>
                 <p className="text-sage-600">
-                  Every story is reviewed by Islamic scholars to ensure authentic, 
+                  Every story is reviewed by moral educators to ensure authentic, 
                   age-appropriate moral guidance that parents can trust.
                 </p>
               </CardContent>
@@ -145,7 +145,7 @@ const Parents = () => {
                 <h3 className="text-xl font-semibold text-sage-800 mb-3">Community-Focused</h3>
                 <p className="text-sage-600">
                   Built by students for children, fostering a sense of 
-                  identity and belonging in the global Muslim community.
+                  identity and belonging in the global community.
                 </p>
               </CardContent>
             </Card>
@@ -219,9 +219,9 @@ const Parents = () => {
               <div className="w-16 h-16 bg-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="w-8 h-8 text-gold-600" />
               </div>
-              <h3 className="text-xl font-semibold text-sage-800 mb-3">In Schools</h3>
+             <h3 className="text-xl font-semibold text-sage-800 mb-3">In Schools & Centers</h3>
               <p className="text-sage-600">
-                Ideal for Islamic schools, weekend schools, and educators looking 
+                Ideal for schools, learning centers, and educators looking 
                 for engaging moral education content.
               </p>
             </div>
@@ -230,10 +230,10 @@ const Parents = () => {
               <div className="w-16 h-16 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-sage-600" />
               </div>
-              <h3 className="text-xl font-semibold text-sage-800 mb-3">In Masjids</h3>
+             <h3 className="text-xl font-semibold text-sage-800 mb-3">In Community Centers</h3>
               <p className="text-sage-600">
-                Great for children's programs, Sunday schools, and community 
-                events that focus on Islamic character building.
+                Great for children's programs, weekend schools, and community 
+                events that focus on character building.
               </p>
             </div>
           </div>
@@ -247,7 +247,7 @@ const Parents = () => {
             Start Your Child's Moral Journey Today
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Join thousands of families who are raising confident, moral Muslim leaders
+            Join thousands of families who are raising confident, moral leaders
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

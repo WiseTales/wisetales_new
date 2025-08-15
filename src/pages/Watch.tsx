@@ -15,7 +15,7 @@ const stories = [
   {
     id: 1,
     title: 'The Haunted Madrasa',
-    description: 'A thrilling Islamic horror-adventure teaching courage and Quranic wisdom.',
+    description: 'A thrilling adventure story teaching courage and wisdom.',
     value: 'courage',
     duration: '2:46',
     views: '—',
@@ -25,7 +25,7 @@ const stories = [
   {
     id: 2,
     title: 'Zayn Ki Seekh',
-    description: 'Zayn’s journey of cleanliness, manners, and responsibility told through heartwarming Urdu animation.',
+    description: 'Zayn's journey of cleanliness, manners, and responsibility told through heartwarming animation.',
     value: 'cleanliness',
     duration: '4:13',
     views: '—',
@@ -55,7 +55,7 @@ const stories = [
   {
     id: 5,
     title: 'The Mirror of Intentions',
-    description: 'An animated tale teaching the power of sincerity (ikhlās) in our actions.',
+    description: 'An animated tale teaching the power of sincerity in our actions.',
     value: 'sincerity',
     duration: '1:46',
     views: '—',
