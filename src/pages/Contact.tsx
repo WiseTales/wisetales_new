@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, MapPin, Phone, Youtube, Instagram, MessageCircle } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -176,7 +175,7 @@ const Contact = () => {
                   
                   <div className="space-y-3">
                     <p className="text-sage-600"><strong>For Parents:</strong> Questions about content or how to use our stories</p>
-                    <p className="text-sage-600"><strong>For Schools:</strong> Partnership and curriculum integration inquiries</p>
+                    <p className="text-sage-600"><strong>For Schools & Centers:</strong> Partnership and curriculum integration inquiries</p>
                     <p className="text-sage-600"><strong>For Donors:</strong> Information about donations and impact reports</p>
                     <p className="text-sage-600"><strong>For Media:</strong> Press kits and interview opportunities</p>
                   </div>
@@ -206,7 +205,7 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-sage-800 mb-3">How can my school partner with Wise Tales?</h3>
                 <p className="text-sage-600 text-sm">
-                  We offer free partnerships for Islamic schools and educational institutions. 
+                  We offer free partnerships for schools and educational institutions. 
                   Contact us through the form above to discuss curriculum integration.
                 </p>
               </CardContent>
