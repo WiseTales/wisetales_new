@@ -73,66 +73,66 @@ const stories = [
     link: 'https://youtu.be/b2sKV_XxMv4'
   },
   {
-    id: 7,
-    title: 'The Quiet Boy in Class',
-    description: 'Watch this inspiring moral story about respect, kindness, and believing in others',
-    value: 'respect',
-    duration: '1:34',
-    views: '—',
-    thumbnail: 'honest-hearts',
-    link: 'https://www.youtube.com/watch?v=ek6vImJqhYA'
-  },
-  {
-    id: 8,
-    title: 'Milo the Monkeys Banana Lesson',
-    description: 'Milo was proud of being the fastest banana picker in the jungle. But when he rushed to gather bananas for the picnic, he learned a big lesson—speed isn’t always success!',
-    value: 'patience',
-    duration: '2:15',
-    views: '—',
-    thumbnail: 'honest-hearts',
-    link: 'https://www.youtube.com/watch?v=7mxOzhNIxaE'
-  },
-  {
-    id: 9,
-    title: 'Lulu and the Lost Smile',
-    description: 'Meet Lulu, a cheerful bunny who suddenly loses her smile! With the help of her friends Toto the Turtle, Mimi the Bird, and her loving Grandma Bunny, she learns that happiness doesn’t come from outside—it comes from kindness, love, and sharing.',
-    value: 'kindness', 'sharing',
-    duration: '2:43',
-    views: '—',
-    thumbnail: 'honest-hearts',
-    link: 'https://www.youtube.com/watch?v=-OCJVeNHSMM'
-  },
-  {
-    id: 10,
-    title: 'A Little Drop',
-    description: '“A Little Drop” is a heart-touching short story that reminds us: no act of goodness is ever too small.',
-    value: 'hope', 'kindness',
-    duration: '2:24',
-    views: '—',
-    thumbnail: 'honest-hearts',
-    link: 'https://youtu.be/VGVkFvgcJGc?si=wpau5UfxsAQRuOrk'
-  },
-   {
-    id: 11,
-    title: 'The Magic Feather',
-    description: '“The Magic Feather” is a touching and inspiring short story about self-belief, courage, and discovering the magic within.',
-    value: 'hope', 'courage',
-    duration: '3:29',
-    views: '—',
-    thumbnail: 'honest-hearts',
-    link: 'https://www.youtube.com/watch?v=8XDaItRuw00'
-  },
-   {
-    id: 12,
-    title: 'Flood Awareness',
-    description: 'This 160-second flood awareness short film shows how disasters unfold and how simple safety steps save lives. From ignored warnings to rescue boats, it highlights real flood risks, survival tips, and NDMA’s message: Be Prepared. Stay Alert. Stay Safe.',
-    value: 'short-films',
-    duration: '3:27',
-    views: '—',
-    thumbnail: 'honest-hearts',
-    link: 'https://www.youtube.com/watch?v=1I2D4lIZNbQ'
-  }
-  
+  id: 7,
+  title: 'The Quiet Boy in Class',
+  description: 'Watch this inspiring moral story about respect, kindness, and believing in others',
+  value: 'respect',
+  duration: '1:34',
+  views: '—',
+  thumbnail: 'quiet-boy', 
+  link: 'https://www.youtube.com/watch?v=ek6vImJqhYA'
+},
+{
+  id: 8,
+  title: 'Milo the Monkeys Banana Lesson',
+  description: 'Milo was proud of being the fastest banana picker in the jungle. But when he rushed to gather bananas for the picnic, he learned a big lesson—speed isn’t always success!',
+  value: 'patience',
+  duration: '2:15',
+  views: '—',
+  thumbnail: 'milo-banana', 
+  link: 'https://www.youtube.com/watch?v=7mxOzhNIxaE'
+},
+{
+  id: 9,
+  title: 'Lulu and the Lost Smile',
+  description: 'Meet Lulu, a cheerful bunny who suddenly loses her smile! With the help of her friends Toto the Turtle, Mimi the Bird, and her loving Grandma Bunny, she learns that happiness doesn’t come from outside—it comes from kindness, love, and sharing.',
+  value: 'kindness', 
+  duration: '2:43',
+  views: '—',
+  thumbnail: 'lulu-lost-smile',
+  link: 'https://www.youtube.com/watch?v=-OCJVeNHSMM'
+},
+{
+  id: 10,
+  title: 'A Little Drop',
+  description: '“A Little Drop” is a heart-touching short story that reminds us: no act of goodness is ever too small.',
+  value: 'hope',
+  duration: '2:24',
+  views: '—',
+  thumbnail: 'little-drop',
+  link: 'https://youtu.be/VGVkFvgcJGc'
+},
+{
+  id: 11,
+  title: 'The Magic Feather',
+  description: '“The Magic Feather” is a touching and inspiring short story about self-belief, courage, and discovering the magic within.',
+  value: 'courage',
+  duration: '3:29',
+  views: '—',
+  thumbnail: 'magic-feather',
+  link: 'https://www.youtube.com/watch?v=8XDaItRuw00'
+},
+{
+  id: 12,
+  title: 'Flood Awareness',
+  description: 'This 160-second flood awareness short film shows how disasters unfold and how simple safety steps save lives.',
+  value: 'short-films',
+  duration: '3:27',
+  views: '—',
+  thumbnail: 'flood-awareness',
+  link: 'https://www.youtube.com/watch?v=1I2D4lIZNbQ'
+}
+
   
   
 ];
