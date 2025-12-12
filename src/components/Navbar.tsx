@@ -10,12 +10,12 @@ const Navbar = () => {
   
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Watch', href: '/watch' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Watch Our Videos', href: '/watch' },
     { name: 'For Parents', href: '/parents' },
     { name: 'Get Involved', href: '/get-involved' },
     { name: 'Blog', href: '/blog' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Contact Us', href: '/contact' },
   ];
   
   const isActive = (path: string) => location.pathname === path;
