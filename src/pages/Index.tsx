@@ -111,7 +111,7 @@ const Index = () => {
                 <BookOpen className="w-12 h-12 text-mint-600 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-sage-800 mb-3">Moral Education</h3>
                 <p className="text-sage-600">
-                  Teaching honesty, gratitude, respect, kindness, and love through engaging AI-powered animations for children aged 3-12.
+                  Teaching honesty, gratitude, respect, kindness, and love through engaging AI-powered animations for students.
                 </p>
               </CardContent>
             </Card>
@@ -139,59 +139,47 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Stats Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-mint-100 to-sage-100">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-sage-800 mb-12">Growing Impact</h2>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="bg-white/80 rounded-xl p-6 border border-mint-200">
-              <div className="text-3xl font-bold text-mint-600 mb-2">10,000+</div>
-              <div className="text-sm text-sage-600">Views in First Month</div>
-            </div>
-            <div className="bg-white/80 rounded-xl p-6 border border-gold-200">
-              <div className="text-3xl font-bold text-gold-600 mb-2">50+</div>
-              <div className="text-sm text-sage-600">Stories Created</div>
-            </div>
-            <div className="bg-white/80 rounded-xl p-6 border border-sage-200">
-              <div className="text-3xl font-bold text-sage-600 mb-2">15</div>
-              <div className="text-sm text-sage-600">Countries Reached</div>
-            </div>
-            <div className="bg-white/80 rounded-xl p-6 border border-mint-200">
-              <div className="text-3xl font-bold text-mint-600 mb-2">100%</div>
-              <div className="text-sm text-sage-600">Funded Vision</div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Call to Action */}
-      <section className="py-16 px-4 bg-sage-600">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-4xl font-bold mb-6">
-            Join Our Movement
-          </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Help us create the next generation of confident, moral leaders
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-4">
-              <Link to="/donate" className="flex items-center">
-                <Heart className="mr-2 h-5 w-5" />
-                Donate Now
-              </Link>
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-sage-600 px-8 py-4">
-              <Link to="/get-involved" className="flex items-center">
-                <Users className="mr-2 h-5 w-5" />
-                Partner With Us
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-      
+     
+     {/* Call to Action */}
+<section className="py-16 px-4 bg-sage-600">
+  <div className="max-w-4xl mx-auto text-center text-white">
+    <h2 className="text-4xl font-bold mb-6">
+      Collaborate With Us
+    </h2>
+    <p className="text-xl mb-8 opacity-90">
+      Partner with Wise Tales to create impactful AI-powered advertisement videos and heartfelt animated stories that elevate your brand.
+    </p>
+
+    <div className="p-6 bg-white/10 backdrop-blur-sm rounded-2xl inline-block border border-gold-300 mb-8">
+      <p className="text-lg mb-2">
+        📧 <span className="font-semibold">Email:</span> zuhairarif1234@gmail.com
+      </p>
+      <p className="text-lg">
+        📞 <span className="font-semibold">Phone:</span> 6394317905
+      </p>
+    </div>
+
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <Button size="lg" className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-4">
+        <Link to="/contact" className="flex items-center">
+          <Users className="mr-2 h-5 w-5" />
+          Contact Us
+        </Link>
+      </Button>
+
+      <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-sage-600 px-8 py-4">
+        <a
+          href="mailto:zuhairarif1234@gmail.com"
+          className="flex items-center"
+        >
+          <Star className="mr-2 h-5 w-5" />
+          Send Collaboration Request
+        </a>
+      </Button>
+    </div>
+  </div>
+</section>
+
       <Footer />
     </div>
   );
