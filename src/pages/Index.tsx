@@ -74,17 +74,27 @@ const Index = () => {
 
           
           {/* Video Preview Placeholder */}
-          <div className="max-w-4xl mx-auto">
-            <div className="relative bg-sage-100 rounded-2xl p-8 border-2 border-gold-200">
-              <div className="aspect-video bg-gradient-to-br from-mint-200 to-sage-200 rounded-xl flex items-center justify-center">
-                <div className="text-center">
-                  <Play className="w-16 h-16 text-sage-600 mx-auto mb-4" />
-                  <p className="text-sage-700 font-medium">Featured Story Preview</p>
-                  <p className="text-sm text-sage-500">Watch our latest 8-second moral tale</p>
-                </div>
-              </div>
-            </div>
-          </div>
+         {/* Featured Story Preview – Auto-playing Video */}
+<div className="max-w-4xl mx-auto">
+  <div className="relative bg-sage-100 rounded-2xl p-8 border-2 border-gold-200">
+    <div className="aspect-video bg-gradient-to-br from-mint-200 to-sage-200 rounded-xl overflow-hidden">
+
+      {/* Autoplay YouTube Embed */}
+      <iframe
+        className="w-full h-full rounded-xl"
+        src="https://www.youtube.com/embed/8XDaItRuw00?autoplay=1&mute=1&controls=1&loop=1&playlist=8XDaItRuw00"
+        title="The Magic Feather"
+        frameBorder="0"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+
+    </div>
+  </div>
+</div>
+
+
+          
         </div>
       </section>
       
