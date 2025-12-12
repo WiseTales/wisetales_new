@@ -1,5 +1,5 @@
 import React from "react";
-import { Video, Sparkles, Building2, Rocket, Briefcase } from "lucide-react";
+import { Video, Sparkles, Building2, Rocket, Briefcase, Mail, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -120,9 +120,7 @@ const AIAdsPage = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
               Start Your Video Project
             </h2>
-            <p className="text-lg text-gray-600">
-              Contact us and we’ll respond within 12 hours.
-            </p>
+            <p className="text-lg text-gray-600">Contact us and we’ll respond within 12 hours.</p>
           </div>
 
           <Card className="border-gray-300 bg-white">
@@ -165,15 +163,29 @@ const AIAdsPage = () => {
                   </Button>
                 </div>
 
-                {/* Contact Info Display */}
-                <div className="text-center mt-8">
+                {/* Contact Info */}
+                <div className="text-center mt-8 space-y-4">
                   <p className="text-lg text-gray-700 font-medium">Or reach us directly:</p>
-                  <p className="text-gray-800 text-xl mt-2 font-semibold">
-                    📧 wisetalesofficial@gmail.com
-                  </p>
-                  <p className="text-gray-800 text-xl mt-1 font-semibold">
-                    📞 +91 87872 07995
-                  </p>
+
+                  {/* Email */}
+                  <a
+                    href="mailto:zuhairtoons@gmail.com"
+                    className="flex items-center justify-center gap-2 text-xl text-gray-800 font-semibold hover:text-gray-900"
+                  >
+                    <Mail className="w-6 h-6" />
+                    zuhairtoons@gmail.com
+                  </a>
+
+                  {/* WhatsApp */}
+                  <a
+                    href="https://wa.me/916394317905"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 text-xl text-gray-800 font-semibold hover:text-gray-900"
+                  >
+                    <MessageCircle className="w-6 h-6" />
+                    +91 6394317905
+                  </a>
                 </div>
               </form>
             </CardContent>
