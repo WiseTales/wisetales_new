@@ -24,14 +24,14 @@ const Contact = () => {
           </p>
         </div>
       </section>
-      
-      
-            
-            {/* Contact Information */}
-            <div className="space-y-8">
-              
-              {/* Contact Details */}
-              <Card className="border-mint-200 bg-white/80 backdrop-blur-sm">
+
+      {/* Contact Information */}
+      <section className="py-16 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="space-y-8">
+
+            {/* Contact Details */}
+            <Card className="border-mint-200 bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <h2 className="text-2xl font-bold text-sage-800 mb-6">Contact Information</h2>
                   
@@ -123,7 +123,6 @@ const Contact = () => {
                   </div>
                 </CardContent>
               </Card>
-            </div>
           </div>
         </div>
       </section>

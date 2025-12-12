@@ -46,9 +46,13 @@ const Donate = () => {
           </div>
         </div>
       </section>
-      
-     
-              
+
+      {/* Donation Form Section */}
+      <section className="py-16 px-4">
+        <div className="max-w-2xl mx-auto">
+          <Card className="border-sage-200 bg-white/80 backdrop-blur-sm">
+            <CardContent className="p-8">
+
               {/* Impact Description */}
               <div className="mb-8 p-6 bg-mint-50 rounded-lg border border-mint-200">
                 <h4 className="font-semibold text-sage-800 mb-2 flex items-center">
