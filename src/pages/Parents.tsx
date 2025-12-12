@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BookOpen, Download, Heart, Users, CheckCircle, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -13,33 +12,6 @@ const Parents = () => {
     "Stories reviewed by moral educators and child development experts",
     "Perfect for family time, bedtime stories, or quiet moments",
     "Builds confidence and leadership qualities in children"
-  ];
-  
-  const resources = [
-    {
-      title: 'Story Discussion Guide',
-      description: 'Help your child reflect on the moral lessons in each story',
-      type: 'PDF Guide',
-      icon: BookOpen
-    },
-    {
-      title: 'Islamic Values Coloring Pages',
-     description: 'Beautiful coloring activities featuring moral values and our characters',
-      type: 'Printable Pack',
-      icon: Download
-    },
-    {
-      title: 'Family Activity Cards',
-      description: 'Games and activities to reinforce moral lessons at home',
-      type: 'Activity Set',
-      icon: Heart
-    },
-    {
-      title: 'Parent-Child Conversation Starters',
-     description: 'Questions to deepen understanding of moral values',
-      type: 'Discussion Guide',
-      icon: Users
-    }
   ];
   
   return (
@@ -153,47 +125,6 @@ const Parents = () => {
         </div>
       </section>
       
-      {/* Free Resources */}
-      <section className="py-16 px-4 bg-white/50">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-sage-800 mb-6">
-              Free Resources for Families
-            </h2>
-            <p className="text-xl text-sage-600">
-              Extend the learning beyond screen time with our curated family resources
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            {resources.map((resource, index) => (
-              <Card key={index} className="border-sage-200 bg-white/80 backdrop-blur-sm hover:shadow-lg transition-shadow">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-mint-400 to-sage-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <resource.icon className="w-6 h-6 text-white" />
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center space-x-2 mb-2">
-                        <h3 className="text-lg font-semibold text-sage-800">{resource.title}</h3>
-                        <span className="text-xs bg-gold-100 text-gold-700 px-2 py-1 rounded-full">
-                          {resource.type}
-                        </span>
-                      </div>
-                      <p className="text-sage-600 mb-4">{resource.description}</p>
-                      <Button size="sm" variant="outline" className="border-sage-300 text-sage-600 hover:bg-sage-50">
-                        <Download className="w-4 h-4 mr-2" />
-                        Download Free
-                      </Button>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-      
       {/* Usage Scenarios */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
@@ -219,7 +150,7 @@ const Parents = () => {
               <div className="w-16 h-16 bg-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="w-8 h-8 text-gold-600" />
               </div>
-             <h3 className="text-xl font-semibold text-sage-800 mb-3">In Schools & Centers</h3>
+              <h3 className="text-xl font-semibold text-sage-800 mb-3">In Schools & Centers</h3>
               <p className="text-sage-600">
                 Ideal for schools, learning centers, and educators looking 
                 for engaging moral education content.
@@ -230,7 +161,7 @@ const Parents = () => {
               <div className="w-16 h-16 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-sage-600" />
               </div>
-             <h3 className="text-xl font-semibold text-sage-800 mb-3">In Community Centers</h3>
+              <h3 className="text-xl font-semibold text-sage-800 mb-3">In Community Centers</h3>
               <p className="text-sage-600">
                 Great for children's programs, weekend schools, and community 
                 events that focus on character building.
@@ -239,30 +170,25 @@ const Parents = () => {
           </div>
         </div>
       </section>
-      
-      {/* Call to Action */}
-      <section className="py-16 px-4 bg-sage-600">
+
+      {/* New Bottom Section: Link to Watch Page */}
+      <section className="py-16 px-4 bg-mint-700">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h2 className="text-4xl font-bold mb-6">
-            Start Your Child's Moral Journey Today
+            Watch Inspiring Moral Stories
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Join thousands of families who are raising confident, moral leaders
+            Explore beautifully crafted animations that teach kindness, honesty, courage, and leadership.
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-4">
-              <BookOpen className="mr-2 h-5 w-5" />
-              Watch Stories Now
+
+          <a href="/watch">
+            <Button size="lg" className="bg-white text-mint-700 hover:bg-sage-100 px-10 py-5 text-lg font-semibold">
+              🌟 Explore All Videos
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-sage-600 px-8 py-4">
-              <Download className="mr-2 h-5 w-5" />
-              Download Resources
-            </Button>
-          </div>
+          </a>
         </div>
       </section>
-      
+
       <Footer />
     </div>
   );
