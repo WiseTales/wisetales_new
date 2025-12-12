@@ -1,11 +1,8 @@
 import React from "react";
 import { Video, Sparkles, Building2, Rocket, Briefcase, Mail, MessageCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Card, CardContent } from "@/components/ui/card";
 
 const AIAdsPage = () => {
   const services = [
@@ -115,81 +112,35 @@ const AIAdsPage = () => {
 
       {/* Contact Section */}
       <section className="py-16 px-4 bg-white/90 backdrop-blur-sm">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Start Your Video Project
-            </h2>
-            <p className="text-lg text-gray-600">Contact us and we’ll respond within 12 hours.</p>
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            Start Your Video Project
+          </h2>
+          <p className="text-lg text-gray-600 mb-10">
+            Contact us directly — we respond within 12 hours.
+          </p>
+
+          <div className="space-y-6">
+            {/* Email */}
+            <a
+              href="mailto:zuhairtoons@gmail.com"
+              className="flex items-center justify-center gap-3 text-2xl text-gray-800 font-semibold hover:text-gray-900"
+            >
+              <Mail className="w-7 h-7" />
+              zuhairtoons@gmail.com
+            </a>
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/916394317905"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-3 text-2xl text-gray-800 font-semibold hover:text-gray-900"
+            >
+              <MessageCircle className="w-7 h-7" />
+              +91 6394317905
+            </a>
           </div>
-
-          <Card className="border-gray-300 bg-white">
-            <CardContent className="p-8">
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-800 mb-2">
-                      Full Name *
-                    </label>
-                    <Input className="border-gray-300" placeholder="Your full name" />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-gray-800 mb-2">
-                      Email Address *
-                    </label>
-                    <Input
-                      type="email"
-                      className="border-gray-300"
-                      placeholder="your.email@example.com"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-800 mb-2">
-                    Message
-                  </label>
-                  <Textarea
-                    className="border-gray-300"
-                    rows={4}
-                    placeholder="Tell us about the video you'd like to create..."
-                  />
-                </div>
-
-                <div className="text-center">
-                  <Button className="bg-gray-800 hover:bg-gray-900 text-white px-10 py-4 text-lg">
-                    Contact Us
-                  </Button>
-                </div>
-
-                {/* Contact Info */}
-                <div className="text-center mt-8 space-y-4">
-                  <p className="text-lg text-gray-700 font-medium">Or reach us directly:</p>
-
-                  {/* Email */}
-                  <a
-                    href="mailto:zuhairtoons@gmail.com"
-                    className="flex items-center justify-center gap-2 text-xl text-gray-800 font-semibold hover:text-gray-900"
-                  >
-                    <Mail className="w-6 h-6" />
-                    zuhairtoons@gmail.com
-                  </a>
-
-                  {/* WhatsApp */}
-                  <a
-                    href="https://wa.me/916394317905"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 text-xl text-gray-800 font-semibold hover:text-gray-900"
-                  >
-                    <MessageCircle className="w-6 h-6" />
-                    +91 6394317905
-                  </a>
-                </div>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
