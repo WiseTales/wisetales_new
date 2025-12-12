@@ -25,72 +25,7 @@ const Contact = () => {
         </div>
       </section>
       
-      {/* Contact Form & Info */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12">
-            
-            {/* Contact Form */}
-            <Card className="border-sage-200 bg-white/90 backdrop-blur-sm">
-              <CardContent className="p-8">
-                <h2 className="text-2xl font-bold text-sage-800 mb-6">Send Us a Message</h2>
-                
-                <form className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-sage-800 mb-2">
-                        First Name *
-                      </label>
-                      <Input className="border-sage-300" placeholder="Your first name" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-sage-800 mb-2">
-                        Last Name *
-                      </label>
-                      <Input className="border-sage-300" placeholder="Your last name" />
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-sage-800 mb-2">
-                      Email Address *
-                    </label>
-                    <Input type="email" className="border-sage-300" placeholder="your.email@example.com" />
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-sage-800 mb-2">
-                      Subject
-                    </label>
-                    <select className="w-full p-3 border border-sage-300 rounded-md focus:ring-2 focus:ring-sage-500 focus:border-sage-500">
-                      <option>General Inquiry</option>
-                      <option>Partnership Opportunity</option>
-                      <option>School/Organization Collaboration</option>
-                      <option>Media & Press</option>
-                      <option>Technical Support</option>
-                      <option>Donation Questions</option>
-                      <option>Other</option>
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-sage-800 mb-2">
-                      Message *
-                    </label>
-                    <Textarea 
-                      className="border-sage-300" 
-                      rows={5}
-                      placeholder="Tell us how we can help you or share your thoughts about Wise Tales..."
-                    />
-                  </div>
-                  
-                  <Button size="lg" className="w-full bg-sage-600 hover:bg-sage-700">
-                    <MessageCircle className="mr-2 h-5 w-5" />
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+      
             
             {/* Contact Information */}
             <div className="space-y-8">
