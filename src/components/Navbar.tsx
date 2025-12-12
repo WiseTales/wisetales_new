@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Star } from 'lucide-react';
@@ -7,7 +6,7 @@ import { Button } from '@/components/ui/button';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  
+
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
@@ -16,9 +15,9 @@ const Navbar = () => {
     { name: 'Ai Ad Studio', href: '/aiAdStudio' },
     { name: 'Contact Us', href: '/contact' },
   ];
-  
+
   const isActive = (path: string) => location.pathname === path;
-  
+
   return (
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-mint-200 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,7 +29,7 @@ const Navbar = () => {
             </div>
             <span className="text-2xl font-bold text-sage-800">Wise Tales</span>
           </Link>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
@@ -46,11 +45,13 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Button size="sm" className="bg-gold-500 hover:bg-gold-600 text-white">
-              <Link to="/donate">Donate</Link>
-            </Button>
+            <Link to="/donate">
+              <Button size="sm" className="bg-gold-500 hover:bg-gold-600 text-white">
+                Donate
+              </Button>
+            </Link>
           </div>
-          
+
           {/* Mobile menu button */}
           <div className="md:hidden">
             <Button
@@ -63,7 +64,7 @@ const Navbar = () => {
             </Button>
           </div>
         </div>
-        
+
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
@@ -83,9 +84,11 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button size="sm" className="w-full bg-gold-500 hover:bg-gold-600 text-white">
-                  <Link to="/donate">Donate</Link>
-                </Button>
+                <Link to="/donate">
+                  <Button size="sm" className="w-full bg-gold-500 hover:bg-gold-600 text-white">
+                    Donate
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
