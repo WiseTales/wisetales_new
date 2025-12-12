@@ -167,15 +167,7 @@ const Index = () => {
         </Link>
       </Button>
 
-      <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-sage-600 px-8 py-4">
-        <a
-          href="mailto:zuhairarif1234@gmail.com"
-          className="flex items-center"
-        >
-          <Star className="mr-2 h-5 w-5" />
-          Send Collaboration Request
-        </a>
-      </Button>
+     
     </div>
   </div>
 </section>
