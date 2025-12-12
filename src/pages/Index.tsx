@@ -152,7 +152,7 @@ const Index = () => {
 
     <div className="p-6 bg-white/10 backdrop-blur-sm rounded-2xl inline-block border border-gold-300 mb-8">
       <p className="text-lg mb-2">
-        📧 <span className="font-semibold">Email:</span> zuhairarif1234@gmail.com
+        📧 <span className="font-semibold">Email:</span> zuhairtoons@gmail.com
       </p>
       <p className="text-lg">
         📞 <span className="font-semibold">Phone:</span> 6394317905
