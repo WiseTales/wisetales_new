@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -13,6 +12,7 @@ import Donate from "./pages/Donate";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import AIAdsPage from "./pages/aiAdStudio"; // <-- Added import
 
 const queryClient = new QueryClient();
 
@@ -27,6 +27,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/watch" element={<Watch />} />
           <Route path="/parents" element={<Parents />} />
+          <Route path="/aiAdStudio" element={<AIAdsPage />} /> {/* <-- Added route */}
           <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/blog" element={<Blog />} />
