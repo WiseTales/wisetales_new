@@ -14,7 +14,6 @@ const Navbar = () => {
     { name: 'Watch Our Videos', href: '/watch' },
     { name: 'For Parents', href: '/parents' },
     { name: 'Ai Ad Studio', href: '/aiAdStudio' },
-    { name: 'Blog', href: '/blog' },
     { name: 'Contact Us', href: '/contact' },
   ];
   
