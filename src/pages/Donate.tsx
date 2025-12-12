@@ -47,77 +47,7 @@ const Donate = () => {
         </div>
       </section>
       
-      {/* Donation Form */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <Card className="border-sage-200 bg-white/90 backdrop-blur-sm">
-            <CardContent className="p-8">
-              
-              {/* Donation Type Toggle */}
-              <div className="flex justify-center mb-8">
-                <div className="bg-sage-100 rounded-lg p-1 flex">
-                  <button
-                    onClick={() => setDonationType('one-time')}
-                    className={`px-6 py-3 rounded-md font-medium transition-all ${
-                      donationType === 'one-time'
-                        ? 'bg-sage-600 text-white shadow-sm'
-                        : 'text-sage-600 hover:bg-sage-50'
-                    }`}
-                  >
-                    One-time
-                  </button>
-                  <button
-                    onClick={() => setDonationType('monthly')}
-                    className={`px-6 py-3 rounded-md font-medium transition-all ${
-                      donationType === 'monthly'
-                        ? 'bg-sage-600 text-white shadow-sm'
-                        : 'text-sage-600 hover:bg-sage-50'
-                    }`}
-                  >
-                    Monthly
-                  </button>
-                </div>
-              </div>
-              
-              {/* Amount Selection */}
-              <div className="mb-8">
-                <h3 className="text-xl font-semibold text-sage-800 mb-4 text-center">
-                  Choose Your {donationType === 'monthly' ? 'Monthly' : ''} Donation Amount
-                </h3>
-                
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
-                  {amounts.map((amount) => (
-                    <button
-                      key={amount}
-                      onClick={() => setSelectedAmount(amount)}
-                      className={`p-4 rounded-lg border-2 transition-all ${
-                        selectedAmount === amount
-                          ? 'border-sage-600 bg-sage-50 text-sage-800'
-                          : 'border-sage-200 hover:border-sage-300'
-                      }`}
-                    >
-                      <div className="text-2xl font-bold">${amount}</div>
-                      {donationType === 'monthly' && (
-                        <div className="text-sm text-sage-600">per month</div>
-                      )}
-                    </button>
-                  ))}
-                </div>
-                
-                <div className="flex items-center justify-center space-x-2">
-                  <span className="text-sage-600">$</span>
-                  <input
-                    type="number"
-                    value={selectedAmount}
-                    onChange={(e) => setSelectedAmount(Number(e.target.value))}
-                    className="text-center text-2xl font-bold border-b-2 border-sage-300 focus:border-sage-600 outline-none bg-transparent w-24"
-                    min="1"
-                  />
-                  {donationType === 'monthly' && (
-                    <span className="text-sage-600">/month</span>
-                  )}
-                </div>
-              </div>
+     
               
               {/* Impact Description */}
               <div className="mb-8 p-6 bg-mint-50 rounded-lg border border-mint-200">
