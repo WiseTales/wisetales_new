@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 const Watch = () => {
   const [selectedFilter, setSelectedFilter] = useState('all');
   
-  const values = ['all', 'honesty', 'hope', 'respect', 'sharing', 'sincerity', 'cleanliness', 'courage', 'patience', 'kindness'];
+  const values = ['all', 'honesty', 'hope', 'respect', 'sharing', 'sincerity', 'cleanliness', 'courage', 'patience', 'kindness', 'short-films'];
 
 const stories = [
   {
@@ -121,6 +121,16 @@ const stories = [
     views: '—',
     thumbnail: 'honest-hearts',
     link: 'https://www.youtube.com/watch?v=8XDaItRuw00'
+  },
+   {
+    id: 12,
+    title: 'Flood Awareness',
+    description: 'This 160-second flood awareness short film shows how disasters unfold and how simple safety steps save lives. From ignored warnings to rescue boats, it highlights real flood risks, survival tips, and NDMA’s message: Be Prepared. Stay Alert. Stay Safe.',
+    value: 'short-films',
+    duration: '3:27',
+    views: '—',
+    thumbnail: 'honest-hearts',
+    link: 'https://www.youtube.com/watch?v=1I2D4lIZNbQ'
   }
   
   
