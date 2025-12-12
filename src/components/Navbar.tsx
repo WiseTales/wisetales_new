@@ -13,7 +13,7 @@ const Navbar = () => {
     { name: 'About Us', href: '/about' },
     { name: 'Watch Our Videos', href: '/watch' },
     { name: 'For Parents', href: '/parents' },
-    { name: 'Get Involved', href: '/get-involved' },
+    { name: 'Ai Ad Studio', href: '/get-involved' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact Us', href: '/contact' },
   ];
