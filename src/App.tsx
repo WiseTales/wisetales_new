@@ -7,11 +7,11 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Watch from "./pages/Watch";
 import Parents from "./pages/Parents";
+import GetInvolved from "./pages/GetInvolved";
 import Donate from "./pages/Donate";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import AIAdsPage from "./pages/aiAdStudio"; // Added AI Ads page
 
 const queryClient = new QueryClient();
 
@@ -26,7 +26,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/watch" element={<Watch />} />
           <Route path="/parents" element={<Parents />} />
-          <Route path="/aiAdStudio" element={<AIAdsPage />} /> {/* Added route */}
+          <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
